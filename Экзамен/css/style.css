@@ -1,0 +1,50 @@
+/* Header, footer */
+
+nav {
+  background-color: #000e8a;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.text {
+  border-radius: 0px 20px 0px 20px;
+  box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.71);
+  background-color: rgb(193, 249, 255);
+  margin: 20px;
+  padding: 20px;
+  color: rgb(26, 51, 55);
+  font-family: 'Balsamiq Sans';
+  font-style: italic;
+  font-size: 20px;
+}
+.center{
+  text-align: center;
+}
+.video{
+  padding: 100px;
+}
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600|Roboto:300,400,700');
